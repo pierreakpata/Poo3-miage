@@ -47,7 +47,10 @@ public class InformationsFichier {
         //FluxBinaire.test();
 
         //Test de CopierImage
-        CopierImage.test();
+        //CopierImage.test();
+
+        //Test de SynchroniserDossiers
+        SynchroniserDossiers.test();
 
 
     }
