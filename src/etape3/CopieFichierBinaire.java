@@ -1,4 +1,4 @@
-package poo3;
+package etape3;
 
 import java.io.*;
 

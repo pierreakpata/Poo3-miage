@@ -1,9 +1,10 @@
 package poo3;
 
 
+import etape3.Pattern;
+import etape3.SimpleComp;
+
 import java.io.*;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class InformationsFichier {
 
@@ -50,8 +51,17 @@ public class InformationsFichier {
         //CopierImage.test();
 
         //Test de SynchroniserDossiers
-        SynchroniserDossiers.test();
+        //SynchroniserDossiers.test();
 
+        //Test CopieFichierBinaire
+        /*CopieFichierBinaire cp = new CopieFichierBinaire();
+        cp.test();*/
 
+        //Test SimpleComp
+        /*SimpleComp sc = new SimpleComp();
+        sc.test();*/
+
+        Pattern p = new Pattern();
+        p.test();
     }
 }
